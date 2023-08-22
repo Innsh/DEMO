@@ -1,0 +1,7 @@
+2，module.Exports={} 用于导出一个对象或函数作为模块的公共接口
+	module.exports = MenuButton.extend("controls.SaveDataMenuButton",{metadata :  hello},)：该代码片段使用了 CommonJS 的模块导出语法，其中 module.exports 用于导出一个对象或函数作为模块的公共接口。下面是对该代码的解释；
+	MenuButton.extend 是一个函数调用，它可能是您的代码中自定义的方法。它接受两个参数：一个字符串 "controls.SaveDataMenuButton" 和一个对象。
+	MenuButton.extend 函数可能是用于创建或扩展菜单按钮的功能。它的第一个参数 "controls.SaveDataMenuButton" 可能是指定新创建的按钮的名称或标识符。
+	第二个参数是一个对象字面量，其中包含一个属性 metadata，其值为字符串 "hello"。这表示在创建菜单按钮时，您的代码可能需要传递一些元数据或配置信息，并将其存储在 metadata 属性中。
+	通过将该模块导出为 module.exports，其他文件可以使用 require 函数来导入并访问该模块的公共接口。
+	例如下
