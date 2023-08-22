@@ -1,0 +1,2 @@
+1， declare 声明一个方法或者函数
+	jQuery.sap.declare("sap.fpa.ui.story.controls.SaveDataMenuButton")： 声明一个名为 "...SaveDataMenuButton" 的 jQuery 自定义方法或函数； jQuery.sap.declare 可能是您自己在代码中定义的一个函数或扩展方法。它不属于 jQuery 核心库中的任何方法
